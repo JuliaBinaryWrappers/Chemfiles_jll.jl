@@ -7,7 +7,7 @@ LIBPATH = ""
 LIBPATH_env = "DYLD_FALLBACK_LIBRARY_PATH"
 
 # Relative path to `libchemfiles`
-const libchemfiles_splitpath = ["lib", "libchemfiles.0.9.2.dylib"]
+const libchemfiles_splitpath = ["lib", "libchemfiles.0.9.3.dylib"]
 
 # This will be filled out by __init__() for all products, as it must be done at runtime
 libchemfiles_path = ""
@@ -17,7 +17,7 @@ libchemfiles_path = ""
 libchemfiles_handle = C_NULL
 
 # This must be `const` so that we can use it with `ccall()`
-const libchemfiles = "@rpath/libchemfiles.0.9.2.dylib"
+const libchemfiles = "@rpath/libchemfiles.0.9.3.dylib"
 
 
 """

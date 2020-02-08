@@ -17,7 +17,7 @@ libchemfiles_path = ""
 libchemfiles_handle = C_NULL
 
 # This must be `const` so that we can use it with `ccall()`
-const libchemfiles = "libchemfiles.so.0.9.2"
+const libchemfiles = "libchemfiles.so.0.9.3"
 
 
 """
