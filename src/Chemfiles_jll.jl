@@ -30,11 +30,11 @@ const LIBPATH_list = String[]
 artifacts_toml = joinpath(@__DIR__, "..", "Artifacts.toml")
 
 # Extract all platforms
-artifacts = Pkg.Artifacts.load_artifacts_toml(artifacts_toml; pkg_uuid=UUID("a08e16d2-5a4e-5a41-856a-7ed93dfb59a7"))
+artifacts = Pkg.Artifacts.load_artifacts_toml(artifacts_toml; pkg_uuid=UUID("78a364fa-1a3c-552a-b4bb-8fa0f9c1fcca"))
 platforms = [Pkg.Artifacts.unpack_platform(e, "Chemfiles", artifacts_toml) for e in artifacts["Chemfiles"]]
 
 # Filter platforms based on what wrappers we've generated on-disk
-platforms = filter(p -> isfile(joinpath(@__DIR__, "wrappers", triplet(p) * ".jl")), platforms)
+filter!(p -> isfile(joinpath(@__DIR__, "wrappers", replace(triplet(p), "arm-" => "armv7l-") * ".jl")), platforms)
 
 # From the available options, choose the best platform
 best_platform = select_platform(Dict(p => triplet(p) for p in platforms))
@@ -43,7 +43,10 @@ best_platform = select_platform(Dict(p => triplet(p) for p in platforms))
 if best_platform === nothing
     @debug("Unable to load Chemfiles; unsupported platform $(triplet(platform_key_abi()))")
 else
-    # Load the appropriate wrapper
+    # Load the appropriate wrapper.  Note that on older Julia versions, we still
+    # say "arm-linux-gnueabihf" instead of the more correct "armv7l-linux-gnueabihf",
+    # so we manually correct for that here:
+    best_platform = replace(best_platform, "arm-" => "armv7l-")
     include(joinpath(@__DIR__, "wrappers", "$(best_platform).jl"))
 end
 
