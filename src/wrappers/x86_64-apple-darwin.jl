@@ -2,12 +2,12 @@
 export libchemfiles
 
 JLLWrappers.@generate_wrapper_header("Chemfiles")
-JLLWrappers.@declare_library_product(libchemfiles, "@rpath/libchemfiles.0.10.0.dylib")
+JLLWrappers.@declare_library_product(libchemfiles, "@rpath/libchemfiles.0.10.1.dylib")
 function __init__()
     JLLWrappers.@generate_init_header()
     JLLWrappers.@init_library_product(
         libchemfiles,
-        "lib/libchemfiles.0.10.0.dylib",
+        "lib/libchemfiles.0.10.1.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
