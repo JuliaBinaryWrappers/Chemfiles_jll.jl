@@ -1,236 +1,236 @@
 [[Chemfiles]]
 arch = "aarch64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "10380ab0e4ccf9a6ea7502083e72135f6aa0327f"
+git-tree-sha1 = "8ad4457087309e0875eb31cce253851a5c66afb1"
 libc = "glibc"
 os = "linux"
 
     [[Chemfiles.download]]
-    sha256 = "bf07bc28429f9205b926ce976ada2553eeb66ae3cd17955487e81d77ffcdb4cd"
-    url = "https://github.com/JuliaBinaryWrappers/Chemfiles_jll.jl/releases/download/Chemfiles-v0.10.1+0/Chemfiles.v0.10.1.aarch64-linux-gnu-cxx03.tar.gz"
+    sha256 = "8c3bf277846e8d2c6278388ea6ed754d0b3699669d4ed1ce267bed8d8f2ffc2e"
+    url = "https://github.com/JuliaBinaryWrappers/Chemfiles_jll.jl/releases/download/Chemfiles-v0.10.2+0/Chemfiles.v0.10.2.aarch64-linux-gnu-cxx03.tar.gz"
 [[Chemfiles]]
 arch = "aarch64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "e3ace076177559d8f55bd9c8148323beca6d3137"
+git-tree-sha1 = "d2adb09d1c2b5cd2cf08eaf56b973d856c0f148f"
 libc = "glibc"
 os = "linux"
 
     [[Chemfiles.download]]
-    sha256 = "b279cc3c23df3b6bed5faeb5c3ad81916108b4e2965b90d0c7b8eb6883ab359b"
-    url = "https://github.com/JuliaBinaryWrappers/Chemfiles_jll.jl/releases/download/Chemfiles-v0.10.1+0/Chemfiles.v0.10.1.aarch64-linux-gnu-cxx11.tar.gz"
+    sha256 = "cda398a69e0b2f77126833dce519b61eec4c379a203801fcc06506b287372fab"
+    url = "https://github.com/JuliaBinaryWrappers/Chemfiles_jll.jl/releases/download/Chemfiles-v0.10.2+0/Chemfiles.v0.10.2.aarch64-linux-gnu-cxx11.tar.gz"
 [[Chemfiles]]
 arch = "aarch64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "2bcfdfbaeca0a4a4ee9af9d0f790599d191622ec"
+git-tree-sha1 = "0113aa3f701f15c4c0351007281c6889518b7c15"
 libc = "musl"
 os = "linux"
 
     [[Chemfiles.download]]
-    sha256 = "312e2c029d48ce1f703cf8a170f414cfcbbf0ab302f1a900d5869e0bd1968209"
-    url = "https://github.com/JuliaBinaryWrappers/Chemfiles_jll.jl/releases/download/Chemfiles-v0.10.1+0/Chemfiles.v0.10.1.aarch64-linux-musl-cxx03.tar.gz"
+    sha256 = "b5daf195d1b17bcc47a961240af433c48e61288b1d708a6df3142187ae89a795"
+    url = "https://github.com/JuliaBinaryWrappers/Chemfiles_jll.jl/releases/download/Chemfiles-v0.10.2+0/Chemfiles.v0.10.2.aarch64-linux-musl-cxx03.tar.gz"
 [[Chemfiles]]
 arch = "aarch64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "bd4d28f596a7b732da6614c9b74047f258cd8716"
+git-tree-sha1 = "c4eadd814046a72abe7ca0c8d5ec84ca0a1d3ab1"
 libc = "musl"
 os = "linux"
 
     [[Chemfiles.download]]
-    sha256 = "ec8eac86c5437bf46bf7e7703440221c5e34764ab41dda163de57c22a4ca6524"
-    url = "https://github.com/JuliaBinaryWrappers/Chemfiles_jll.jl/releases/download/Chemfiles-v0.10.1+0/Chemfiles.v0.10.1.aarch64-linux-musl-cxx11.tar.gz"
+    sha256 = "f0dfe558cc109c8c7df682630c46e72241c3369678a477722bf06ed064ddd4f3"
+    url = "https://github.com/JuliaBinaryWrappers/Chemfiles_jll.jl/releases/download/Chemfiles-v0.10.2+0/Chemfiles.v0.10.2.aarch64-linux-musl-cxx11.tar.gz"
 [[Chemfiles]]
 arch = "armv7l"
 call_abi = "eabihf"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "52221599b0e6ccdf5932efaa8656f1909f688099"
+git-tree-sha1 = "4f192098bc1615c859eaf572a8ac4c7628d3e2db"
 libc = "glibc"
 os = "linux"
 
     [[Chemfiles.download]]
-    sha256 = "f321ddeb5ca83f4bafbd817f5554a3e22add3265ae9a55704c6186eadf2f176b"
-    url = "https://github.com/JuliaBinaryWrappers/Chemfiles_jll.jl/releases/download/Chemfiles-v0.10.1+0/Chemfiles.v0.10.1.armv7l-linux-gnueabihf-cxx03.tar.gz"
+    sha256 = "5b8e3246d0d90b7ee3fc3370ef3c10e448842955812f16a55ed798e16f497c24"
+    url = "https://github.com/JuliaBinaryWrappers/Chemfiles_jll.jl/releases/download/Chemfiles-v0.10.2+0/Chemfiles.v0.10.2.armv7l-linux-gnueabihf-cxx03.tar.gz"
 [[Chemfiles]]
 arch = "armv7l"
 call_abi = "eabihf"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "3d432a5071e181a8284c06f5c89d1e1de3c8ef62"
+git-tree-sha1 = "266c61207a84792be00c505e029b97daa3dcc51c"
 libc = "glibc"
 os = "linux"
 
     [[Chemfiles.download]]
-    sha256 = "3717a6201775b4c940f41db7087a0a9d7c8b9a84adce1a9a58b0a837d01f36e8"
-    url = "https://github.com/JuliaBinaryWrappers/Chemfiles_jll.jl/releases/download/Chemfiles-v0.10.1+0/Chemfiles.v0.10.1.armv7l-linux-gnueabihf-cxx11.tar.gz"
+    sha256 = "59dc17ffd3f5bac1a7c719baab9db39949c5ced802ea646daa7679052a68d598"
+    url = "https://github.com/JuliaBinaryWrappers/Chemfiles_jll.jl/releases/download/Chemfiles-v0.10.2+0/Chemfiles.v0.10.2.armv7l-linux-gnueabihf-cxx11.tar.gz"
 [[Chemfiles]]
 arch = "armv7l"
 call_abi = "eabihf"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "64931356bb0654610a702be5e5cbb7c4dd8dac2a"
+git-tree-sha1 = "71bda52a3f28156a72b8a8c17a13e09a76933d4d"
 libc = "musl"
 os = "linux"
 
     [[Chemfiles.download]]
-    sha256 = "4bdcae96493b417b65a5cab139121ec3bd9316777f12584b848ac6a1703bf076"
-    url = "https://github.com/JuliaBinaryWrappers/Chemfiles_jll.jl/releases/download/Chemfiles-v0.10.1+0/Chemfiles.v0.10.1.armv7l-linux-musleabihf-cxx03.tar.gz"
+    sha256 = "cd601578fe322d7f1e073a7d5cf399ac9b738e188478e5d0962ccb541df535dd"
+    url = "https://github.com/JuliaBinaryWrappers/Chemfiles_jll.jl/releases/download/Chemfiles-v0.10.2+0/Chemfiles.v0.10.2.armv7l-linux-musleabihf-cxx03.tar.gz"
 [[Chemfiles]]
 arch = "armv7l"
 call_abi = "eabihf"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "80cc6b7b96347c35b79f89bceaf2ac3cc8501de4"
+git-tree-sha1 = "ddbb2d90f5e951c97455ec30814c7ea24f715ad7"
 libc = "musl"
 os = "linux"
 
     [[Chemfiles.download]]
-    sha256 = "18f275a78b0f0880f7bd3e41d6a2cdff8fc90b52381a2e3327fbd55d6f165c82"
-    url = "https://github.com/JuliaBinaryWrappers/Chemfiles_jll.jl/releases/download/Chemfiles-v0.10.1+0/Chemfiles.v0.10.1.armv7l-linux-musleabihf-cxx11.tar.gz"
+    sha256 = "aa0346081873b1e51c605596c4bba415fe59324a87d9cd6f40de57768404e2e3"
+    url = "https://github.com/JuliaBinaryWrappers/Chemfiles_jll.jl/releases/download/Chemfiles-v0.10.2+0/Chemfiles.v0.10.2.armv7l-linux-musleabihf-cxx11.tar.gz"
 [[Chemfiles]]
 arch = "i686"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "880bdce639acff9250d2d44756c09c52908d4150"
+git-tree-sha1 = "60877cba34e7ad355ebe8bfefa521e666e434c60"
 libc = "glibc"
 os = "linux"
 
     [[Chemfiles.download]]
-    sha256 = "2e294ae0fd49b91886c35fdff8ec1b21b86ce911fedbc60f437d930049941ae6"
-    url = "https://github.com/JuliaBinaryWrappers/Chemfiles_jll.jl/releases/download/Chemfiles-v0.10.1+0/Chemfiles.v0.10.1.i686-linux-gnu-cxx03.tar.gz"
+    sha256 = "e571164d9b9f29bd18d319ccdd30f52f9b82a913d6a4432d4bbd126e84da2f79"
+    url = "https://github.com/JuliaBinaryWrappers/Chemfiles_jll.jl/releases/download/Chemfiles-v0.10.2+0/Chemfiles.v0.10.2.i686-linux-gnu-cxx03.tar.gz"
 [[Chemfiles]]
 arch = "i686"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "5718e042220c5fb39c33c6b0a4204e7a8d2e69b7"
+git-tree-sha1 = "6f78239169d76b8e5831ef118adee33dc1f7ec4d"
 libc = "glibc"
 os = "linux"
 
     [[Chemfiles.download]]
-    sha256 = "b567565bd871c3ea767724e17d098447015d813e19f8f25a6f52777533716b5f"
-    url = "https://github.com/JuliaBinaryWrappers/Chemfiles_jll.jl/releases/download/Chemfiles-v0.10.1+0/Chemfiles.v0.10.1.i686-linux-gnu-cxx11.tar.gz"
+    sha256 = "cd276c499c83f73f396e49371974a9feb5681c8247bfa9b23f1bf4b3a0fde066"
+    url = "https://github.com/JuliaBinaryWrappers/Chemfiles_jll.jl/releases/download/Chemfiles-v0.10.2+0/Chemfiles.v0.10.2.i686-linux-gnu-cxx11.tar.gz"
 [[Chemfiles]]
 arch = "i686"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "8f38fcea7e9f7db0ca0ffc33b1ca477d492f2b34"
+git-tree-sha1 = "65be94fd14cdd956f44828e4dc8a536c6b2e0585"
 libc = "musl"
 os = "linux"
 
     [[Chemfiles.download]]
-    sha256 = "178e6161b66b3c5651d8698a73276c95244ecfe3e91cf2fad311e1349cd31cb8"
-    url = "https://github.com/JuliaBinaryWrappers/Chemfiles_jll.jl/releases/download/Chemfiles-v0.10.1+0/Chemfiles.v0.10.1.i686-linux-musl-cxx03.tar.gz"
+    sha256 = "1adc817ab41f204d68f7366589d7c5b43943e47489a5c02d4339a95b9396da22"
+    url = "https://github.com/JuliaBinaryWrappers/Chemfiles_jll.jl/releases/download/Chemfiles-v0.10.2+0/Chemfiles.v0.10.2.i686-linux-musl-cxx03.tar.gz"
 [[Chemfiles]]
 arch = "i686"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "cadf2ea5d9cdf02379cb5090370b50cb85a7a342"
+git-tree-sha1 = "5b141e7ee3ed979e3ffd5609dc52dec32ba84c02"
 libc = "musl"
 os = "linux"
 
     [[Chemfiles.download]]
-    sha256 = "e3554b10699475de0423d6939a3f9cd1057dcb839f5e3b6e39f70473a68cf705"
-    url = "https://github.com/JuliaBinaryWrappers/Chemfiles_jll.jl/releases/download/Chemfiles-v0.10.1+0/Chemfiles.v0.10.1.i686-linux-musl-cxx11.tar.gz"
+    sha256 = "5cf1609b12ed33d6aa440e3bec248214cc8d0e0fe73acf3e5572f8fb1fcc1382"
+    url = "https://github.com/JuliaBinaryWrappers/Chemfiles_jll.jl/releases/download/Chemfiles-v0.10.2+0/Chemfiles.v0.10.2.i686-linux-musl-cxx11.tar.gz"
 [[Chemfiles]]
 arch = "i686"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "0275649ba0098e83ef5f19ae050de9442ac23fe2"
+git-tree-sha1 = "5387603f1c5848ea5929ad153172e33092f2c1fc"
 os = "windows"
 
     [[Chemfiles.download]]
-    sha256 = "518e931c326c28c03c8d2d7019c117a4efad1c740f38146388ac7dc77ee86043"
-    url = "https://github.com/JuliaBinaryWrappers/Chemfiles_jll.jl/releases/download/Chemfiles-v0.10.1+0/Chemfiles.v0.10.1.i686-w64-mingw32-cxx03.tar.gz"
+    sha256 = "c037b41ec4feb247c14aed582f58225dac7702419c6370777bb15d28ced99434"
+    url = "https://github.com/JuliaBinaryWrappers/Chemfiles_jll.jl/releases/download/Chemfiles-v0.10.2+0/Chemfiles.v0.10.2.i686-w64-mingw32-cxx03.tar.gz"
 [[Chemfiles]]
 arch = "i686"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "e52a307de73defc8765cb6b5db64c5f0108f1976"
+git-tree-sha1 = "70ac53bf1b0f8c281a0c89bb420b3a535a7f0914"
 os = "windows"
 
     [[Chemfiles.download]]
-    sha256 = "5880800642560147a445ad99c065bb2f327acebfb78d99b4fd875b32da1a3d8d"
-    url = "https://github.com/JuliaBinaryWrappers/Chemfiles_jll.jl/releases/download/Chemfiles-v0.10.1+0/Chemfiles.v0.10.1.i686-w64-mingw32-cxx11.tar.gz"
+    sha256 = "dddeffbed57bb14ff5ada1ce9d17dc2e3be1bc84aa9562e49bd2bbead7892e07"
+    url = "https://github.com/JuliaBinaryWrappers/Chemfiles_jll.jl/releases/download/Chemfiles-v0.10.2+0/Chemfiles.v0.10.2.i686-w64-mingw32-cxx11.tar.gz"
 [[Chemfiles]]
 arch = "powerpc64le"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "504e60d98478a0e5d65aea6d5f94519e072a481b"
+git-tree-sha1 = "b735611d3ed753dcfb33e7fc6170ee8d234929a2"
 libc = "glibc"
 os = "linux"
 
     [[Chemfiles.download]]
-    sha256 = "3a23f4f901b59c726b84f7a1b4171d7817b0e0fdd847444e10cafa77a276db59"
-    url = "https://github.com/JuliaBinaryWrappers/Chemfiles_jll.jl/releases/download/Chemfiles-v0.10.1+0/Chemfiles.v0.10.1.powerpc64le-linux-gnu-cxx03.tar.gz"
+    sha256 = "9119d88ab98582949eda926c77ef52294a2066cd93b7b9407584c5ca6e2c46b7"
+    url = "https://github.com/JuliaBinaryWrappers/Chemfiles_jll.jl/releases/download/Chemfiles-v0.10.2+0/Chemfiles.v0.10.2.powerpc64le-linux-gnu-cxx03.tar.gz"
 [[Chemfiles]]
 arch = "powerpc64le"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "36743aabe2ea9a69ea71f38e84cd56a3ef3bea87"
+git-tree-sha1 = "deeed42835690945c7f61851561eec39ee8d870d"
 libc = "glibc"
 os = "linux"
 
     [[Chemfiles.download]]
-    sha256 = "19d4d8aa3882a12908f1bea53f5e10e780244c6118537bd5fe7a6056d10f6c73"
-    url = "https://github.com/JuliaBinaryWrappers/Chemfiles_jll.jl/releases/download/Chemfiles-v0.10.1+0/Chemfiles.v0.10.1.powerpc64le-linux-gnu-cxx11.tar.gz"
+    sha256 = "a58fcfc747aa3ae56841283a385d619356aaa599ecaf71ce93aadb165e720d6c"
+    url = "https://github.com/JuliaBinaryWrappers/Chemfiles_jll.jl/releases/download/Chemfiles-v0.10.2+0/Chemfiles.v0.10.2.powerpc64le-linux-gnu-cxx11.tar.gz"
 [[Chemfiles]]
 arch = "x86_64"
-git-tree-sha1 = "23731115b3f6df08b73442f693b81d236f0c3fb0"
+git-tree-sha1 = "ee8b88219bf59d874d07223c7f68ee96028dd0b8"
 os = "macos"
 
     [[Chemfiles.download]]
-    sha256 = "beb206c18e58e890c0ccf33b822f353cb93d71facbb5dbe5253b08bb5b6dd804"
-    url = "https://github.com/JuliaBinaryWrappers/Chemfiles_jll.jl/releases/download/Chemfiles-v0.10.1+0/Chemfiles.v0.10.1.x86_64-apple-darwin.tar.gz"
+    sha256 = "5cfbcde3c3979f65333ad4c0b894fe9a3922e7aed13e8c10c2fafa3165dff7da"
+    url = "https://github.com/JuliaBinaryWrappers/Chemfiles_jll.jl/releases/download/Chemfiles-v0.10.2+0/Chemfiles.v0.10.2.x86_64-apple-darwin.tar.gz"
 [[Chemfiles]]
 arch = "x86_64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "6800778a36466d2c496278a59893cd7f3ec88d55"
+git-tree-sha1 = "32199a5cbee9d81e09c332b994d3aa3038043f59"
 libc = "glibc"
 os = "linux"
 
     [[Chemfiles.download]]
-    sha256 = "90523b3554e36145ae9a62e82687e10dc7fc845ed232b507bc695f06ce2ebfbf"
-    url = "https://github.com/JuliaBinaryWrappers/Chemfiles_jll.jl/releases/download/Chemfiles-v0.10.1+0/Chemfiles.v0.10.1.x86_64-linux-gnu-cxx03.tar.gz"
+    sha256 = "449f6ea2e64e753faca57ef11b1b7a73af357a396eacf51072b36e7a1d8aebd3"
+    url = "https://github.com/JuliaBinaryWrappers/Chemfiles_jll.jl/releases/download/Chemfiles-v0.10.2+0/Chemfiles.v0.10.2.x86_64-linux-gnu-cxx03.tar.gz"
 [[Chemfiles]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "0e162c0721bfc2594333f9998ac42da449dabaf1"
+git-tree-sha1 = "da37b7bf87f6c97b1718da90136eb2793a0914fa"
 libc = "glibc"
 os = "linux"
 
     [[Chemfiles.download]]
-    sha256 = "d74dcf89b846cdf7a8136746c22779391a71a5d820322af1df1106e516dd0a78"
-    url = "https://github.com/JuliaBinaryWrappers/Chemfiles_jll.jl/releases/download/Chemfiles-v0.10.1+0/Chemfiles.v0.10.1.x86_64-linux-gnu-cxx11.tar.gz"
+    sha256 = "cfa42814faad11e26b10c18bdc74f6538b03cfcab1b59188525fc57f013e2820"
+    url = "https://github.com/JuliaBinaryWrappers/Chemfiles_jll.jl/releases/download/Chemfiles-v0.10.2+0/Chemfiles.v0.10.2.x86_64-linux-gnu-cxx11.tar.gz"
 [[Chemfiles]]
 arch = "x86_64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "8f484c6452aafa0674b4e6dcea5e1d687cf352e4"
+git-tree-sha1 = "62e4015aa376acf5b515e13ac35dd98346488e56"
 libc = "musl"
 os = "linux"
 
     [[Chemfiles.download]]
-    sha256 = "bab29d8f9077c0027f3a0008e64124cc3b6557524d361fbc81c84fccc1eb3dcb"
-    url = "https://github.com/JuliaBinaryWrappers/Chemfiles_jll.jl/releases/download/Chemfiles-v0.10.1+0/Chemfiles.v0.10.1.x86_64-linux-musl-cxx03.tar.gz"
+    sha256 = "a9d33deea6a101bf39d1b63dccddeec7ccc062c0da6372946cb17f0a2fc2424f"
+    url = "https://github.com/JuliaBinaryWrappers/Chemfiles_jll.jl/releases/download/Chemfiles-v0.10.2+0/Chemfiles.v0.10.2.x86_64-linux-musl-cxx03.tar.gz"
 [[Chemfiles]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "adf88e4149936d2c6f86e0740cb2ecbb06a44bfb"
+git-tree-sha1 = "4cfda700c0729d88d355093777b52b28fe1852f9"
 libc = "musl"
 os = "linux"
 
     [[Chemfiles.download]]
-    sha256 = "239b200e35bc54cc1a8d6eba8ab34be99bc520f0eb8740ceabda7995a00008a6"
-    url = "https://github.com/JuliaBinaryWrappers/Chemfiles_jll.jl/releases/download/Chemfiles-v0.10.1+0/Chemfiles.v0.10.1.x86_64-linux-musl-cxx11.tar.gz"
+    sha256 = "77a333de0f4b2a230f1d9944be5c62069a9dc0657e46b2aad0b2e58fee7d72c2"
+    url = "https://github.com/JuliaBinaryWrappers/Chemfiles_jll.jl/releases/download/Chemfiles-v0.10.2+0/Chemfiles.v0.10.2.x86_64-linux-musl-cxx11.tar.gz"
 [[Chemfiles]]
 arch = "x86_64"
-git-tree-sha1 = "663016810206a6fb9f770cdc9303dc04eaa7ae13"
+git-tree-sha1 = "46f72dd760edffdeda09c5cdf5bc625b7c34e68c"
 os = "freebsd"
 
     [[Chemfiles.download]]
-    sha256 = "e80b45cdaca230861f55e824ce7645ea0ec81d40d82e7ec35097deaa80b5a18a"
-    url = "https://github.com/JuliaBinaryWrappers/Chemfiles_jll.jl/releases/download/Chemfiles-v0.10.1+0/Chemfiles.v0.10.1.x86_64-unknown-freebsd.tar.gz"
+    sha256 = "7540ef7c208d2f883ef90fdcf3c69fc3854e2766cad162602594bb769c0aab9c"
+    url = "https://github.com/JuliaBinaryWrappers/Chemfiles_jll.jl/releases/download/Chemfiles-v0.10.2+0/Chemfiles.v0.10.2.x86_64-unknown-freebsd.tar.gz"
 [[Chemfiles]]
 arch = "x86_64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "d1ffc65e9df3516696d70a68ef217273edef3dda"
+git-tree-sha1 = "3563181acab83e36901921f2fa611eb4997c3ddc"
 os = "windows"
 
     [[Chemfiles.download]]
-    sha256 = "a3da44fb48207ca84180e6a8ae57d7d760f2a5d775ba9b34293faef38b5f9ea9"
-    url = "https://github.com/JuliaBinaryWrappers/Chemfiles_jll.jl/releases/download/Chemfiles-v0.10.1+0/Chemfiles.v0.10.1.x86_64-w64-mingw32-cxx03.tar.gz"
+    sha256 = "5dc4779eae1351552018cc38462d49e4bc85a8baf8bf1bd8eade6fdab72fb858"
+    url = "https://github.com/JuliaBinaryWrappers/Chemfiles_jll.jl/releases/download/Chemfiles-v0.10.2+0/Chemfiles.v0.10.2.x86_64-w64-mingw32-cxx03.tar.gz"
 [[Chemfiles]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "3d7811082ff490b844de62a855a7244fa4b7cb43"
+git-tree-sha1 = "b172da733a9ece880d5c2298dee106679d980a7d"
 os = "windows"
 
     [[Chemfiles.download]]
-    sha256 = "665b072a5701ad7ad418b1d1b4fc2f2df8ba7d4f19b70f5b32c90e2553be512b"
-    url = "https://github.com/JuliaBinaryWrappers/Chemfiles_jll.jl/releases/download/Chemfiles-v0.10.1+0/Chemfiles.v0.10.1.x86_64-w64-mingw32-cxx11.tar.gz"
+    sha256 = "5542b93bc22bac6f2fec222b7f926ce50d9bfe6eb3019903d335208b08fc56ca"
+    url = "https://github.com/JuliaBinaryWrappers/Chemfiles_jll.jl/releases/download/Chemfiles-v0.10.2+0/Chemfiles.v0.10.2.x86_64-w64-mingw32-cxx11.tar.gz"

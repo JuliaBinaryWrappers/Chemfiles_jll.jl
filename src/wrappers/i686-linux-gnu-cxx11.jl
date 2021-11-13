@@ -2,7 +2,7 @@
 export libchemfiles
 
 JLLWrappers.@generate_wrapper_header("Chemfiles")
-JLLWrappers.@declare_library_product(libchemfiles, "libchemfiles.so.0.10.1")
+JLLWrappers.@declare_library_product(libchemfiles, "libchemfiles.so.0.10")
 function __init__()
     JLLWrappers.@generate_init_header()
     JLLWrappers.@init_library_product(
