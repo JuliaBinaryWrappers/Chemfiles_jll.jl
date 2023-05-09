@@ -7,7 +7,7 @@ function __init__()
     JLLWrappers.@generate_init_header()
     JLLWrappers.@init_library_product(
         libchemfiles,
-        "lib/libchemfiles.0.10.3.dylib",
+        "lib/libchemfiles.0.10.4.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
